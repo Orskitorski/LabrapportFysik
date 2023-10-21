@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.9)  20 OCT 2023 20:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.9)  21 OCT 2023 11:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -617,6 +617,27 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 ty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
+(C:\Users\oscar.tafvelin\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\bookt
+abs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen157
+\lightrulewidth=\dimen158
+\cmidrulewidth=\dimen159
+\belowrulesep=\dimen160
+\belowbottomsep=\dimen161
+\aboverulesep=\dimen162
+\abovetopsep=\dimen163
+\cmidrulesep=\dimen164
+\cmidrulekern=\dimen165
+\defaultaddspace=\dimen166
+\@cmidla=\count412
+\@cmidlb=\count413
+\@aboverulesep=\dimen167
+\@belowrulesep=\dimen168
+\@thisruleclass=\count414
+\@lastruleclass=\count415
+\@thisrulewidth=\dimen169
+)
 
 Package biblatex Warning: Load 'inputenc' before biblatex.
 
@@ -624,8 +645,8 @@ Package biblatex Warning: Load 'inputenc' before biblatex.
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count412
-\@quotereset=\count413
+\@quotelevel=\count416
+\@quotereset=\count417
 
 LaTeX Warning: Unused global option(s):
     [11p].
@@ -633,60 +654,51 @@ LaTeX Warning: Unused global option(s):
 (C:/Code\IntelliJCode\LabrapportFysik\out\main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 (C:\Users\oscar.tafvelin\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\su
 pp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count414
-\scratchdimen=\dimen157
+\scratchcounter=\count418
+\scratchdimen=\dimen170
 \scratchbox=\box54
-\nofMPsegments=\count415
-\nofMParguments=\count416
+\nofMPsegments=\count419
+\nofMParguments=\count420
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count417
-\MPscratchDim=\dimen158
-\MPnumerator=\count418
-\makeMPintoPDFobject=\count419
+\MPscratchCnt=\count421
+\MPscratchDim=\dimen171
+\MPnumerator=\count422
+\makeMPintoPDFobject=\count423
 \everyMPtoPDFconversion=\toks26
 )
 (C:\Users\oscar.tafvelin\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\e
 pstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(C:\Users\oscar.tafvelin\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.
-sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (C:\Users\oscar.tafvelin\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epsto
 pdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 30.
  (C:/Code\IntelliJCode\LabrapportFysik\out\main.out)
 (C:/Code\IntelliJCode\LabrapportFysik\out\main.out)
 \@outlinefile=\write4
@@ -714,15 +726,15 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (C:/Code\IntelliJCode\LabrapportFysik\out\main.bbl)
-Package biblatex Info: Reference section=0 on input line 29.
-Package biblatex Info: Reference segment=0 on input line 29.
+Package biblatex Info: Reference section=0 on input line 30.
+Package biblatex Info: Reference segment=0 on input line 30.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 34--41
+Overfull \hbox (15.0pt too wide) in paragraph at lines 35--42
 [][]
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
-0.
+1.
 
 (C:\Users\oscar.tafvelin\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
@@ -731,7 +743,7 @@ File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 File: images/NTI Gymnasiet_Symbol_print_svart.png Graphic file (type png)
 <use images/NTI Gymnasiet_Symbol_print_svart.png>
 Package pdftex.def Info: images/NTI Gymnasiet_Symbol_print_svart.png  used on i
-nput line 54.
+nput line 55.
 (pdftex.def)             Requested size: 172.5pt x 152.60501pt.
  [1
 
@@ -741,17 +753,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.64     \end{abstract}
+l.65     \end{abstract}
                         [1] (C:/Code\IntelliJCode\LabrapportFysik\out\main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
 [1]
-<images/lutandePlan.jpg, id=59, 200.75pt x 147.55125pt>
-File: images/lutandePlan.jpg Graphic file (type jpg)
-<use images/lutandePlan.jpg>
-Package pdftex.def Info: images/lutandePlan.jpg  used on input line 98.
-(pdftex.def)             Requested size: 276.00105pt x 202.89145pt.
+<images/lutande plan.png, id=59, 602.25pt x 451.6875pt>
+File: images/lutande plan.png Graphic file (type png)
+<use images/lutande plan.png>
+Package pdftex.def Info: images/lutande plan.png  used on input line 99.
+(pdftex.def)             Requested size: 276.00105pt x 207.00684pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -761,8 +773,17 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104     \newpage
-                   [1] [2 <./images/lutandePlan.jpg>] [3]
+l.105     \newpage
+                   [1]
+
+LaTeX Warning: Float too large for page by 67.08719pt on input line 173.
+
+<images/img_1.png, id=74, 749.80125pt x 465.74pt>
+File: images/img_1.png Graphic file (type png)
+<use images/img_1.png>
+Package pdftex.def Info: images/img_1.png  used on input line 183.
+(pdftex.def)             Requested size: 276.00105pt x 171.43988pt.
+[2 <./images/lutande plan.png> <./images/img_1.png>] [3] [4]
 (C:/Code\IntelliJCode\LabrapportFysik\out\main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
@@ -775,13 +796,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17825 strings out of 475248
- 316553 string characters out of 5753565
- 1924785 words of memory out of 5000000
- 39125 multiletter control sequences out of 15000+600000
+ 17866 strings out of 475248
+ 316955 string characters out of 5753565
+ 1937785 words of memory out of 5000000
+ 39164 multiletter control sequences out of 15000+600000
  570545 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,81p,679b,1921s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,81p,679b,1921s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\oscar.tafvelin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
 i600\eccc1000.pk> <C:\Users\oscar.tafvelin\AppData\Local\MiKTeX\fonts/pk/ljfour
 /jknappen/ec/dpi600\ecti1000.pk> <C:\Users\oscar.tafvelin\AppData\Local\MiKTeX\
@@ -799,10 +820,10 @@ ers/oscar.tafvelin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 public/amsfonts/cm/cmmi7.pfb><C:/Users/oscar.tafvelin/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/oscar.tafvelin/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on C:/Code\IntelliJCode\LabrapportFysik\out\main.pdf (6 pages, 1
-55443 bytes).
+Output written on C:/Code\IntelliJCode\LabrapportFysik\out\main.pdf (7 pages, 1
+71559 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 59 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 381 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 64 words of extra memory for PDF output out of 10000 (max. 10000000)
 

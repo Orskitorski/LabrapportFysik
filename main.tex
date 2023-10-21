@@ -11,6 +11,7 @@
 ]{biblatex}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{booktabs}
 %Källor
 \addbibresource{mall.bib}
 \graphicspath{ {./images/} }
@@ -60,7 +61,7 @@
 
     \begin{otherlanguage}{english}
 	\begin{abstract}
-        We were given the task to calculate the speed of an object rolling down an incline. To do this we used a real life model that we rolled down a small incline and then used a program called "Tracker" on physlets.org to calculate the distance traveled and the amount of time it took to travel that distance. The program measured the distance and time and printed out measurements for both time and distance.
+        We were given the task to calculate the speed and acceleration of a wagon rolling down an incline. To do this we used a real life model that we rolled down a small incline and then used a program called "Tracker" on physlets.org to calculate the distance traveled and the amount of time it took to travel that distance. The program measured the distance and time and printed out measurements for both of these.
     \end{abstract}
     \end{otherlanguage}
     % Om arbetet är långt har det en innehållsförteckning, annars kan den utelämnas
@@ -95,8 +96,8 @@
         Det lutande planet monteras på ställningen så att den ena änden är 1 dm över bordet, se figur \ref{fig:lutandeplan}. Linjalen placeras längs planet så att det finns en längdskala  i filmen. Kameran placeras vid sidan av uppställningen på ett avstånd så att hela rörelsen ryms i filmen utan att kameran behöver flyttas. Vagnen rullas nedför planet samtidigt som kameran filmar rörelsen. Försöket placeras så att ljusförhållanden och bakgrund ger en så tydlig och skarp film som möjligt.
         
         \begin{figure}[!h]
-            \includegraphics[width=0.8\textwidth]{images/lutandePlan.jpg}
-            \caption{En blid hade varit superbra här}
+            \includegraphics[width=0.8\textwidth]{images/lutande plan.png}
+            \caption{En illustration av vagnen och det lutande planet.}
             \label{fig:lutandeplan}
         \end{figure}
         
@@ -104,29 +105,85 @@
     \newpage
 	\section{Analys och beräkning}
         Datat från analysen av filmen visas i tabell \ref{table:result}
-    
-        
+
+
         \begin{table}
             \begin{center}
             \begin{tabular}{ |c|c| } 
                 \hline
-                Position (m) & Tid (s)  \\ 
+                Tid (ms) & Distans (m)  \\
                 \hline
-                0 & 0  \\ 
-                0.1 & 0.02 \\
-                \vdots & \vdots \\
+                2,43E+00 & 1,80E-03 \\
+                2,43E+00 & 4,18E-03 \\
+                2,50E+00 & 7,35E-03 \\
+                2,50E+00 & 1,10E-02 \\
+                2,57E+00 & 1,55E-02 \\
+                2,57E+00 & 2,04E-02 \\
+                2,63E+00 & 2,66E-02 \\
+                2,63E+00 & 3,30E-02 \\
+                2,70E+00 & 4,00E-02 \\
+                2,70E+00 & 4,80E-02 \\
+                2,77E+00 & 5,61E-02 \\
+                2,77E+00 & 6,52E-02 \\
+                2,83E+00 & 7,41E-02 \\
+                2,83E+00 & 8,35E-02 \\
+                2,90E+00 & 9,52E-02 \\
+                2,90E+00 & 1,06E-01 \\
+                2,93E+00 & 1,17E-01 \\
+                3,00E+00 & 1,30E-01 \\
+                3,00E+00 & 1,43E-01 \\
+                3,07E+00 & 1,56E-01 \\
+                3,07E+00 & 1,70E-01 \\
+                3,13E+00 & 1,86E-01 \\
+                3,13E+00 & 1,99E-01 \\
+                3,20E+00 & 2,23E-01 \\
+                3,20E+00 & 2,39E-01 \\
+                3,27E+00 & 2,52E-01 \\
+                3,27E+00 & 2,77E-01 \\
+                3,33E+00 & 2,95E-01 \\
+                3,33E+00 & 3,05E-01 \\
+                3,40E+00 & 3,15E-01 \\
+                3,40E+00 & 3,45E-01 \\
+                3,47E+00 & 3,52E-01 \\
+                3,47E+00 & 3,23E-01 \\
+                3,53E+00 & 4,40E-01 \\
+                3,60E+00 & 4,63E-01 \\
+                3,60E+00 & 4,86E-01 \\
+                3,67E+00 & 5,11E-01 \\
+                3,67E+00 & 5,35E-01 \\
+                3,73E+00 & 5,61E-01 \\
+                3,73E+00 & 5,88E-01 \\
+                3,80E+00 & 6,14E-01 \\
+                3,80E+00 & 6,41E-01 \\
+                3,87E+00 & 6,70E-01 \\
+                3,87E+00 & 6,97E-01 \\
+                3,90E+00 & 7,26E-01 \\
+                3,97E+00 & 7,54E-01 \\
+                3,97E+00 & 7,81E-01 \\
+                4,03E+00 & 8,11E-01 \\
+                4,03E+00 & 8,41E-01 \\
+                4,10E+00 & 8,71E-01 \\
+                4,10E+00 & 9,03E-01 \\
+                4,17E+00 & 9,37E-01 \\
                 \hline
             \end{tabular}
                 \caption{Mätvärden}
                 \label{table:result}
             \end{center}
         \end{table}            
-        
+
+
 
     Datat importeras i Excel och hastigheten beräknas med hjälp av formeln
     \begin{equation}
         v_m = \frac{\Delta s}{\Delta t}
     \end{equation}
+
+    \begin{figure}[!h]
+        \includegraphics[width=0.8\textwidth]{images/img_1.png}
+        \caption{Mätvärdena sammanställda i ett sträcka-tid diagram.}
+        \label{fig:graf1}
+    \end{figure}
     
     \section{Slutsats och resultat} 
         Resultatet av beräkningarna illustreras i graferna 2 och 3
