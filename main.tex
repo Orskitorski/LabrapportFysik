@@ -61,7 +61,7 @@
 
     \begin{otherlanguage}{english}
 	\begin{abstract}
-        We were given the task to calculate the speed and acceleration of a wagon rolling down an incline. To do this we used a real life model that we rolled down a small incline and then used a program called "Tracker" on physlets.org to calculate the distance traveled and the amount of time it took to travel that distance. The program measured the distance and time and printed out measurements for both of these.
+        We were given the task to calculate the speed and acceleration of a wagon rolling down an incline. To do this we used a real life model that we rolled down a small incline and then used a program called "Tracker" on physlets.org to calculate the distance traveled and the amount of time it took to travel that distance. The program measured the distance and time and printed out measurements for both of these. We then took those values and put them into the formulas for speed and acceleration.
     \end{abstract}
     \end{otherlanguage}
     % Om arbetet är långt har det en innehållsförteckning, annars kan den utelämnas
@@ -178,6 +178,18 @@
     \begin{equation}
         v_m = \frac{\Delta s}{\Delta t}
     \end{equation}
+    Vilket i det här fallet blir
+    \begin{equation}
+        v_m = \frac{\ 0,9367772 - 0,001800019}{\ 4,166144 - 2,433033} = 0.53947911068 \approx 0.54 m/s
+    \end{equation}
+    Sedan Beräknas Accelerationen med hjälp av formeln
+    \begin{equation}
+        a_m = \frac{\ v}{\ t}
+    \end{equation}
+    Vilket i detta fall blir
+    \begin{equation}
+        a_m = \frac{\ 0.53947911068}{\ 4,166144} = 0.12949122994 \approx 0.13 m/s^2
+    \end{equation}
 
     \begin{figure}[!h]
         \includegraphics[width=0.8\textwidth]{images/img_1.png}
@@ -185,10 +197,11 @@
         \label{fig:graf1}
     \end{figure}
     
-    \section{Slutsats och resultat} 
-        Resultatet av beräkningarna illustreras i graferna 2 och 3
+    \section{Slutsats och resultat}
+    De originella mätvärdena finns utskrivna i grafen \ref{fig:graf1}
+    Vi beräknade att medelhastigheten och accelerationen för vagnen blev ungefär 0.54m/s respektive 0.13m/s^2.
     \section{Diskussion} 
-    Resultatet som vi fick fram med experimentet kanske inte är perfekt. Vi exkluderade vissa mätvärden på grund av att programmet strulade lite grann när mätningarna genomfördes. Till exempel så räknade den med ett par minusvärden i början som vi blev tvungna att ta bort. På grund av detta kanske man kan ifrågasätta hur exakta våra mätvärden faktiskt är.
+    Resultatet som vi fick fram med experimentet kanske inte är perfekt. Vi exkluderade vissa mätvärden på grund av att programmet strulade lite grann när mätningarna genomfördes. Till exempel så räknade den med ett par minusvärden i början som vi blev tvungna att ta bort. På grund av detta kanske man kan ifrågasätta hur exakta våra mätvärden faktiskt var.
 
     
     \printbibliography
